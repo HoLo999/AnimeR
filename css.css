@@ -1,0 +1,144 @@
+@media screen and (max-width: 1200px) {
+	
+}
+@media screen and (max-width: 998px) {
+	
+}
+@media screen and (max-width: 768px) {
+	
+}
+@media screen and (max-width: 576px) {
+	
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+	max-width: 500px;
+}
+::-webkit-scrollbar{
+	width: 15px;
+}
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(#985cff,#ef5cff);
+	border-radius: 20px
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 10px;
+	max-height: 600px;
+	
+}
+
+.anime-card2 {
+	transform: translate(350px,-475px)
+}
+
+.anime-card3 {
+	transform: translate(699px,-951px)
+
+}
+h1{
+	transform: translate(500px,5px)
+}
+video{
+	transform: translate(450px,50px)
+}
+
+
+/ Стили для шапки /
+header {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #fff;
+	text-align: center;
+}
+
+/ Стили для навигации /
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/ Стили для основного контента /
+.main-content {
+    padding: 20px 0;
+}
+
+/ Стили для футера /
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: #ccc;
+}
+
+/ Стили для ссылок /
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/ Стили для кнопок */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}.button1 {
+     display: inline-block;
+	  padding: 10px 24px;
+	  font-size: 15px;
+	  cursor: pointer;
+	  text-align: center;
+	  text-decoration: none;
+	  outline: none;
+	  color: #fff;
+	  background-color: #bababa;
+	  border: none;
+	  border-radius: 15px;
+	  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+.button1:hover {
+	background-color: #ededed;
+    color: white;
+}
+.button:hover {
+    background-color: #2980b9;
+	
+}
+}
